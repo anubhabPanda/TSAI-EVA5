@@ -1,4 +1,4 @@
-1.What are Channels and Kernels (according to EVA)?
+# 1. What are Channels and Kernels (according to EVA)?
 ===
   * Channel is a collection of contextually similar imformation placed together. Another interpretation of channel is a collection of similar or same feature. Sometime, a channel is also referred to as a feature map. Few examples of channels are -
     
@@ -10,7 +10,7 @@
 
   * Kernel or Filter is a feature extractor. A kernel is a matrix of randomly initialized numbers whose output is a specific feature map such as vertical edges or horizontal edges, etc. The numbers in the matrix are called weights which are learned during backpropagation. Usually a 3 X 3 kernel is used.
 
-2.Why should we (nearly) always use 3x3 kernels?
+# 2. Why should we (nearly) always use 3x3 kernels?
 ===
 With 3 X 3 kernel size there are numerous advantages. Hence it is mostly used. Some of the advantages of using 3 X 3 filters are:
 
@@ -123,7 +123,7 @@ With 3 X 3 kernel size there are numerous advantages. Hence it is mostly used. S
     1 X 1
 Hence we need to perform 99 times 3 X 3 convolutions to reach 1 X 1 from 199 X 199.
 
-4.How are kernels initialized?
+# 4. How are kernels initialized?
 ===
 Kernels are initialized to random numbers between 0 and 1. These weights are later learned during backpropagation. If we initialize all values to zero the output after a convolution operation will be zero and if we initialize all values to 1, the output after a convolution operation will be a cropped image, hence no feature will be learned. Therefore we initialize the weights of the Kernel between 0 and 1. The numbers are between 0 and 1 and not very large numbers to save memory.
 
@@ -135,6 +135,6 @@ Kernels are initialized to random numbers between 0 and 1. These weights are lat
             [0.857  0.649  0.3655]
             [0.4087 0.3171 0.6694]]
 
-5.What happens during the training of a DNN?
+# 5. What happens during the training of a DNN?
 ===
 Each DNN has 4 blocks. At first block it learns about smaller and simpler features like edges and gradients. The edges and gradients are combined to learn the next block i.e., textures and patterns. The textures and patterns are combined to learn more complex features such as parts. Finally the parts are combined to learn objects. At the output layer loss is computed which is propagated back in the form of gradient to adjust the weights of the Kernel to learn the features better. 
