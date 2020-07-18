@@ -10,6 +10,8 @@
 
   * Kernel or Filter is a feature extractor. A kernel is a matrix of randomly initialized numbers whose output is a specific feature map such as vertical edges or horizontal edges, etc. The numbers in the matrix are called weights which are learned during backpropagation. Usually a 3 X 3 kernel is used.
 
+  ![](Images/Kernel_Operations.gif)
+
 # 2. Why should we (nearly) always use 3x3 kernels?
 ===
 With 3 X 3 kernel size there are numerous advantages. Hence it is mostly used. Some of the advantages of using 3 X 3 filters are:
@@ -138,3 +140,5 @@ Kernels are initialized to random numbers between 0 and 1. These weights are lat
 # 5. What happens during the training of a DNN?
 ===
 Each DNN has 4 blocks. At first block it learns about smaller and simpler features like edges and gradients. The edges and gradients are combined to learn the next block i.e., textures and patterns. The textures and patterns are combined to learn more complex features such as parts. Finally the parts are combined to learn objects. At the output layer loss is computed which is propagated back in the form of gradient to adjust the weights of the Kernel to learn the features better. 
+
+![](Images/cnn_explained.PNG)
