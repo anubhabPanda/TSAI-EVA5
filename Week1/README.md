@@ -8,5 +8,7 @@
     * Each note in a song can be thought of as a different channel.
     * In a painting, all the shades of red can be considered a channel.
 
-  * Kernel or Filter is a feature extractor. A kernel is a matrix of randomly initialized numbers whose output is a specific feature such as vertical edge or horizontal edge, etc. The numbers in the matrix are called weights which are learned during backpropagation. Usually a 3 X 3 kernel is used. 
+  * Kernel or Filter is a feature extractor. A kernel is a matrix of randomly initialized numbers whose output is a specific feature map such as vertical edges or horizontal edges, etc. The numbers in the matrix are called weights which are learned during backpropagation. Usually a 3 X 3 kernel is used.
+
+     ![How a kernel work]("Kernel_Operations.gif") 
     
