@@ -1,6 +1,6 @@
 # 1. What are Channels and Kernels (according to EVA)?
 
-  * Channel is a collection of contextually similar imformation placed together. Another interpretation of channel is a collection of similar or same feature. Sometime, a channel is also referred to as a feature map. Few examples of channels are -
+  * Channel is a collection of contextually similar information placed together. Another interpretation of channel is a collection of similar or same feature. Sometime, a channel is also referred to as a feature map. Few examples of channels are -
     
     * All alphanumeric characters can be considered as separate channels (A-Z, a-z, 0-9, punctuations, other special characters, etc).
     * Different parts of speech can be considered as separate channels (Nouns can be considered as one channel, verbs as another and so on).
