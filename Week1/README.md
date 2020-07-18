@@ -1,5 +1,5 @@
 # 1. What are Channels and Kernels (according to EVA)?
-===
+
   * Channel is a collection of contextually similar imformation placed together. Another interpretation of channel is a collection of similar or same feature. Sometime, a channel is also referred to as a feature map. Few examples of channels are -
     
     * All alphanumeric characters can be considered as separate channels (A-Z, a-z, 0-9, punctuations, other special characters, etc).
@@ -13,7 +13,7 @@
   ![](Images/Kernel_Operations.gif)
 
 # 2. Why should we (nearly) always use 3x3 kernels?
-===
+
 With 3 X 3 kernel size there are numerous advantages. Hence it is mostly used. Some of the advantages of using 3 X 3 filters are:
 
    * 3 X 3 kernel have lesser number of weights to learn, i.e., 9 weights per kernel. Hence it is computationally inexpensive. 
@@ -21,8 +21,8 @@ With 3 X 3 kernel size there are numerous advantages. Hence it is mostly used. S
    * It requires lesser number of convolutions as compared to a more smaller kernel like 1 X 1 kernel. Another drawback of 1 X 1 kernel is that feature extracted is very local with no consideration to the neighbouring pixels.
    * 3 X 3 is an odd numbered kernel. Hence the output pixel will be always symmetrical to the input pixel. Hence we don't have to account for any distortions in the image.
 
-3.How many times to we need to perform 3x3 convolutions operations to reach close to 1x1 from 199x199 (type each layer output like 199x199 > 197x197...)
-===
+# 3. How many times to we need to perform 3x3 convolutions operations to reach close to 1x1 from 199x199 (type each layer output like 199x199 > 197x197...)
+
     199 X 199
     197 X 197
     195 X 195
@@ -126,7 +126,7 @@ With 3 X 3 kernel size there are numerous advantages. Hence it is mostly used. S
 Hence we need to perform 99 times 3 X 3 convolutions to reach 1 X 1 from 199 X 199.
 
 # 4. How are kernels initialized?
-===
+
 Kernels are initialized to random numbers between 0 and 1. These weights are later learned during backpropagation. If we initialize all values to zero the output after a convolution operation will be zero and if we initialize all values to 1, the output after a convolution operation will be a cropped image, hence no feature will be learned. Therefore we initialize the weights of the Kernel between 0 and 1. The numbers are between 0 and 1 and not very large numbers to save memory.
 
     #Random initialization of a 3 X 3 kernel.
@@ -138,7 +138,7 @@ Kernels are initialized to random numbers between 0 and 1. These weights are lat
             [0.4087 0.3171 0.6694]]
 
 # 5. What happens during the training of a DNN?
-===
+
 Each DNN has 4 blocks. At first block it learns about smaller and simpler features like edges and gradients. The edges and gradients are combined to learn the next block i.e., textures and patterns. The textures and patterns are combined to learn more complex features such as parts. Finally the parts are combined to learn objects. At the output layer loss is computed which is propagated back in the form of gradient to adjust the weights of the Kernel to learn the features better. 
 
 ![](Images/cnn_explained.PNG)
