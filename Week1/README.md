@@ -1,2 +1,4 @@
-# What are Channels and Kernels (according to EVA)?
+What are Channels and Kernels (according to EVA)?
+-------------------------------------------------
+-------------------------------------------------
 
