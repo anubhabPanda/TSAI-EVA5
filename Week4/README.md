@@ -2,7 +2,8 @@
 
 [![Open Jupyter Notebook](Images/nbviewer_badge.png)](https://nbviewer.jupyter.org/github/anubhabPanda/TSAI-EVA5/blob/master/Week4/S4_Assignment_Solution.ipynb)
 
-## Assignment Objective: 
+## Assignment Objective
+
 The goal of this assignment is to achieve **>99.40%** accuracy on the test set of the **MNIST handwritten dataset**. The model needs to have the following constraints :
 
 * Less than 20K Parameters
@@ -11,7 +12,7 @@ The goal of this assignment is to achieve **>99.40%** accuracy on the test set o
 
 ## Network Architecture
 
-![](Images/Network_Architecture.PNG)
+![Network Architecture Diagram](Images/Network_Architecture.PNG)
 
 ## Approach
 
@@ -26,7 +27,7 @@ The goal of this assignment is to achieve **>99.40%** accuracy on the test set o
 
 ## Network Parameters
 
-![](Images/Network_Parameters.PNG)
+![Network Parameters Diagram](Images/Network_Parameters.PNG)
 
 Total number of parameters in the network is 12,032.
 
