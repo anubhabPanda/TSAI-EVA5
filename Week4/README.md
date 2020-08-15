@@ -16,13 +16,17 @@ The goal of this assignment is to achieve **>99.40%** accuracy on the test set o
 
 ## Approach
 
-* Performed three 3X3 convolutions with 16 channels before maxpooling to achieve a receptive field of 7 since for images of size 28X28, edges and gradients are at a minimum size of 7 pixels.
-* After maxpooling performed three more 3X3 convolution with 16 channels to reach 7X7 image size and receptive field of 22.
+* Performed three 3X3 convolutions with 16 channels before maxpooling to achieve a receptive field of 7, since for images of size 28X28, edges and gradients are at a minimum size of 7 pixels. ReLu activation function has been used for the convolution blocks.
+* After maxpooling, performed three more 3X3 convolution with 16 channels to reach 7X7 image size and receptive field of 22. ReLu activation function has been used for the convolution blocks.
 * Used Batchnorm and Dropout of 10% after every convolutional block except the last block.
 * Used Global Average Pooling at 7X7 to convert to 1X1.
 * Performed 1X1 convolution to reduce the number of channels to 10.
 * Used softmax activation function at the end to get the likelihood for each class.
+
+    ![Softmax function](Images/Softmax.PNG)
 * **Loss Function**: Negative Log Likelihood
+
+    ![Negative Log Likelihood](Images/NLL.PNG)
 * **Optimizer**: Stochastic Gradient Descent with momentum of 0.1.
 
 ## Network Parameters
