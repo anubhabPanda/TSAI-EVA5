@@ -7,3 +7,12 @@ The goal of this assignment is to reach **99.40%** accuracy on the test set of t
 * Less than 20K Parameters
 * Less than 20 epochs
 * No fully connected layers
+
+## Network Architecture
+
+
+
+
+## Network Parameters
+
+[](Images/Network_Parameters.PNG)
