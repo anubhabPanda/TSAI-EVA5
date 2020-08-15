@@ -15,4 +15,4 @@ The goal of this assignment is to reach **99.40%** accuracy on the test set of t
 
 ## Network Parameters
 
-[](Images/Network_Parameters.PNG)
+![](Images/Network_Parameters.PNG)
