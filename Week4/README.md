@@ -11,7 +11,7 @@ The goal of this assignment is to achieve **>99.40%** accuracy on the test set o
 
 ## Network Architecture
 
-
+![](Images/Network_Architecture.PNG)
 
 ## Approach
 
