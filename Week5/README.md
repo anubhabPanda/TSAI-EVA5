@@ -103,3 +103,20 @@ The goal of this assignment is to achieve **>99.40%** accuracy on the test set o
 
 1. Very good model. Able to achieve the target accuracy with required parameters
 2. Adding Image Augmentation and LR scheduler have made the model more robust. There is less variance in the validation accuracy
+
+## Final Architecture
+
+![Network Parameters Diagram](Images/Network_Parameters.PNG)
+
+Total number of parameters in the network is 9,904.
+
+## Hyperparameters
+
+* **Learning Rate :** 0.01
+* **Batch Size :** 32
+* **Dropout :** 0.01
+* **LR Step Size :** 5
+
+## Final Result
+
+The model was able to reach an accuracy of **99.40 %** at the 15th epoch
