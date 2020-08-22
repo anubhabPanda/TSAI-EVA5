@@ -119,4 +119,4 @@ Total number of parameters in the network is 9,904.
 
 ## Final Result
 
-The model was able to reach an accuracy of **99.40 %** at the 15th epoch
+The model was able to reach an accuracy of **99.44 %** at the 15th epoch
