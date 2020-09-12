@@ -25,8 +25,8 @@ The model has **94,218 parameters**.
 
 ## Change in Validation Loss and Accuracy
 
-<img src="Images/Val_loss.png" width="450px">
-<img src="Images/Val_Accuracy.png" width="450px">
+<img src="Images/Val_loss.PNG" width="450px">
+<img src="Images/Val_Accuracy.PNG" width="450px">
 
 ## Top Misclassified images
-<img src="Images/Top_Losses.png" width = "600px">
+<img src="Images/Top_Losses.PNG" width = "600px">
