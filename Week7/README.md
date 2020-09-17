@@ -26,7 +26,7 @@ The model has **94,218 parameters**.
 
 ## Model Parameters
 
-![architecture](images/architecture.PNG)
+![architecture](Images/architecture.PNG)
 
 ## Hyperparameters
 
