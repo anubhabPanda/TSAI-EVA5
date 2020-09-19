@@ -30,7 +30,7 @@ The model has **11,173,962 parameters**.
 
 ## Variation of training and validation loss and accuracy with epochs
 
-<img src="Images/loss.PNG" width="400px" height='350' float='left'>
+<img src="Images/Loss.PNG" width="400px" height='350' float='left'>
 <img src="Images/Accuracy.PNG" width="400px" height='350' float='right'>
 
 ## Top Misclassified images
