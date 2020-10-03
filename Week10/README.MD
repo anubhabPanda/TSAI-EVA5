@@ -46,5 +46,5 @@ The model has **11,173,962 parameters**.
 <img src="Images/Misclassified.PNG" width = "800px">
 
 ## Gradcam for some of the images in the validation set
-<img src="Images/grad_cam_1.PNG" width = "800px">
-<img src="Images/grad_cam_2.PNG" width = "800px">
+<img src="Images/grad_cam_1.png" width = "800px">
+<img src="Images/grad_cam_2.png" width = "800px">
