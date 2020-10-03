@@ -2,6 +2,10 @@
 
 [![Open Jupyter Notebook](Images/nbviewer_badge.png)](https://nbviewer.jupyter.org/github/anubhabPanda/TSAI-EVA5/blob/master/Week10/EVA5S10.ipynb)
 
+## Link to Classification Module repo
+
+[https://github.com/anubhabPanda/Picasso](https://github.com/anubhabPanda/Picasso)
+
 ## Assignment Objective
 
 * Pick Week9 code and add cutout
