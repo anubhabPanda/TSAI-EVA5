@@ -1,6 +1,6 @@
 # Session 11 - Super Convergence
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anubhabPanda/TSAI-EVA5.git/master?filepath=https%3A%2F%2Fgithub.com%2FanubhabPanda%2FTSAI-EVA5%2Fblob%2Fmaster%2FWeek11%2FEVA5S11.ipynb)
+[![Open Jupyter Notebook](Images/nbviewer_badge.png)](https://nbviewer.jupyter.org/github/anubhabPanda/TSAI-EVA5/blob/52f9441b8e7a8479627ee9e04bd9e35936ff667f/Week11/EVA5S11.ipynb)
 
 ## Link to Classification Module repo
 
