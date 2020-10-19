@@ -1,6 +1,6 @@
 # Session 11 - Super Convergence
 
-[![Open Jupyter Notebook](Images/nbviewer_badge.png)](https://nbviewer.jupyter.org/github/anubhabPanda/TSAI-EVA5/blob/master/Week11/EVA5S11.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anubhabPanda/TSAI-EVA5.git/master?filepath=https%3A%2F%2Fgithub.com%2FanubhabPanda%2FTSAI-EVA5%2Fblob%2Fmaster%2FWeek11%2FEVA5S11.ipynb)
 
 ## Link to Classification Module repo
 
@@ -39,8 +39,8 @@
 
 ## Model Summary
 
-The model reaches a final test accuracy of **90.79%** in **CIFAR-10** dataset in 50 epochs. Target accuracy is reached after 28 epochs.
-The model has **11,173,962 parameters**.
+The model reaches a final test accuracy of **90.02%** in **CIFAR-10** dataset in 24 epochs.
+The model has **6,573,130 parameters**.
 
 ## Model Parameters
 
@@ -49,18 +49,18 @@ The model has **11,173,962 parameters**.
 ## Hyperparameters
 
 * Loss Function: NLL Loss
-* Optimizer: SGD with momentum
-* Max Learning Rate: 0.1
-* Min Learning Rate: 0.01
+* Optimizer: SGD with 0.9 momentum
+* Max Learning Rate: 0.02
+* Min Learning Rate: 0.002
 * Scheduler: One Cycle LR
 * Batch Size: 512
 * Epochs: 24
 
 ## Transformations
 
-* Rotate
+* Padding 4 followed by 32X32 Random Crop
 * Horizontal Flip
-* Cutout
+* 8X8 Cutout
   
 ## Variation of training and validation loss and accuracy with epochs
 
@@ -72,4 +72,4 @@ The model has **11,173,962 parameters**.
 
 ## Gradcam for some of the images in the validation set
 <img src="Images/grad_cam_1.png" width = "800px">
-<img src="Images/grad_cam_2.png" width = "800px">
+
