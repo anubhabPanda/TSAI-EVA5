@@ -1,12 +1,12 @@
 # Session 13 - Object Detection using Yolo
 
 **Part A Notebook -**
-[![Open Jupyter Notebook](Images/nbviewer_badge.png)]()
+[![Open Jupyter Notebook](Images/nbviewer_badge.png)](https://nbviewer.jupyter.org/github/anubhabPanda/TSAI-EVA5/blob/master/Week13/EVA5S13_PartA.ipynb)
 
 **Part B Notebook -**
-[![Open Jupyter Notebook](Images/nbviewer_badge.png)]()
+[![Open Jupyter Notebook](Images/nbviewer_badge.png)](https://nbviewer.jupyter.org/github/anubhabPanda/TSAI-EVA5/blob/master/Week13/EVA5S13_PartB.ipynb)
 
-## Link to Classification Youtube Video
+## Link to Object Detection Youtube Video
 
 [https://youtu.be/A8Z-5xBn_ZM](https://youtu.be/A8Z-5xBn_ZM)
 
