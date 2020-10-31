@@ -1,10 +1,10 @@
 # Session 14 - Mask RCNN Dataset Preparation
 
 **Depth Estmation Notebook -**
-[![Open Jupyter Notebook](Images/nbviewer_badge.png)](https://nbviewer.jupyter.org/github/anubhabPanda/TSAI-EVA5/blob/master/Week13/EVA5S13_PartA.ipynb)
+[![Open Jupyter Notebook](Images/nbviewer_badge.png)](https://nbviewer.jupyter.org/github/anubhabPanda/TSAI-EVA5/blob/master/Week14/MiDaS_Depth_Estimation.ipynb)
 
 **Planercnn Notebook -**
-[![Open Jupyter Notebook](Images/nbviewer_badge.png)](https://nbviewer.jupyter.org/github/anubhabPanda/TSAI-EVA5/blob/master/Week13/EVA5S13_PartB.ipynb)
+[![Open Jupyter Notebook](Images/nbviewer_badge.png)](https://nbviewer.jupyter.org/github/anubhabPanda/TSAI-EVA5/blob/master/Week14/Planercnn.ipynb)
 
 ## Link to PPE Dataset
 
