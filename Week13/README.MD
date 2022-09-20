@@ -46,12 +46,6 @@
 * Loaded the pretrained yolo weights to the OpenCV Yolo Model
 * Did inference on own image having COCO Class
 
-## Results
-
-<img src="Images/Coco_Class.jpg" width="300px" height='300' margin-right='50px' display='inline-block'>
-
-<img src="Images/Yolo_Prediction.jpg" width="300px" height='300' display='inline-block' margin-left='50px'>
-
 # Part B Solution
 
 * Implemented YoloV3 code
